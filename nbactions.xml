@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-evosuite:export</actionName>
+            <displayName>evosuite:export</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>evosuite:generate</goal>
+                <goal>evosuite:export</goal>
+            </goals>
+        </action>
+    </actions>
